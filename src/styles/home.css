@@ -1,0 +1,33 @@
+
+
+section.home{
+    background-color: grey;
+    background-image: linear-gradient(to left top, #141e30, #182539, #1c2c42, #20334b, #243b55);
+    height:100vh;
+}
+
+.btn {
+  position: relative;
+
+  margin: 30px auto;
+  padding: 0;
+
+  overflow: hidden;
+
+  border-width: 0;
+  outline: none;
+  border-radius: 2px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+  
+  color: #ecf0f1;
+  
+  transition: background-color .3s;
+}
+
+
+.btn:active:before {
+  width: 120%;
+  padding-top: 120%;
+  
+  transition: width .2s ease-out, padding-top .2s ease-out;
+}
