@@ -6,8 +6,9 @@ import { useHistory } from "react-router"
 
 
 const HomeContainer = styled.section`
-    height: 100vh;
+    // height: 100vh;
     padding: 15px;
+    padding-top: 95px;
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -27,13 +28,14 @@ const HomeContainer = styled.section`
     }
 
     img.portfolio-image{
-        width: 150px;
-        height: 150px;
+        width: 200px;
+        height: 200px;
         border-radius: 50%;
     }
 
     div.cta-wrapper{
         text-align: center;
+        max-width: 100%;
     }
 
     button.cta{
@@ -55,6 +57,7 @@ const HomeContainer = styled.section`
         cursor: pointer;
         background-color: rgb(0, 56, 77);
         border: 3px solid #D8A31A !important;
+        color: #D8A31A;
     }
 `
 
@@ -63,7 +66,7 @@ const Home : React.FC = ()=>{
     return (
         <HomeContainer>
             <img className="portfolio-image" alt="profile" src={profile} />
-            <h1 className="header-text">Hello, I'm <span className="name">Ibaakee Ledum</span></h1>
+            <h1 className="header-text">Halo! I'm <span className="name">Ibaakee Ledum</span></h1>
             <p className="home-description">I'm a Fullstack Web Developer with a lots of experiences 
             in Django, React and GraphQL . I love coding because it helps in
              solving problems...

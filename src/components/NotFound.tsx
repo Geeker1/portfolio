@@ -2,8 +2,8 @@ import React from "react"
 import styled from "styled-components"
 
 const Missing = styled.div`
-    height: 100vh;
     padding: 15px;
+    padding-top: 30vh;
     display: flex;
     flex-direction: column;
     justify-content:center;
@@ -11,12 +11,13 @@ const Missing = styled.div`
 
     h1{
         margin-bottom: 0;
+        color: #D8A31A;
     }
 `
 
 const NotFound: React.FC = ()=>{
     return <Missing>
-        <h1>404</h1>
+        <h1>404!</h1>
         <h2>Sorry, page your looking for does not exist...</h2>
     </Missing>
 }

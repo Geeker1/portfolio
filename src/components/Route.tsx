@@ -24,7 +24,7 @@ export const BaseLayout: React.FC = ()=>{
                 <Route exact path="/expertise" component={Expertise}/>
                 <Route exact path="/about" component={About}/>
                 <Route exact path="/projects" component={Project}/>
-                <Route exact path="" component={Home}/>
+                <Route exact path="/" component={Home}/>
                 <Route exact path="*" component={NotFound}/>
             </Switch>
         </Container>

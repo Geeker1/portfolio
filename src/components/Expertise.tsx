@@ -4,6 +4,7 @@ import webIcon from "../styles/web.svg"
 import scrapeIcon from "../styles/scrape.svg"
 import dataIcon from "../styles/data.svg"
 import cloudIcon from "../styles/cloud.svg"
+import autoIcon from "../styles/automation.svg"
 
 
 const ExpertWrapper = styled.section`
@@ -16,9 +17,9 @@ const ExpertWrapper = styled.section`
     padding-top: 80px;
     font-size: 15px;
     letter-spacing: 1px;
-    h1{
+    h2.main-heading{
         color:#D8A31A;
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 `
 
@@ -31,6 +32,7 @@ const Content = styled.div`
 
     div.content{
         box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+        background-color: #2b3444;
         width: 350px;
         display: flex;
         flex-direction: column;
@@ -61,7 +63,7 @@ const Content = styled.div`
 const Expertise : React.FC = ()=>{
     return(
         <ExpertWrapper>
-            <h1> Areas of Expertise </h1>
+            <h2 className="main-heading"> Areas of Expertise </h2>
             <Content>
                 <div className="content">
                     <img src={webIcon} alt="Web Development"/>
@@ -90,17 +92,18 @@ const Expertise : React.FC = ()=>{
                     </p>
                 </div>
                 <div className="content">
-                    <img src={dataIcon} alt="Data Analysis"/>
+                    <img src={autoIcon} alt="Data Analysis"/>
                     <h3>Automation Scripts</h3>
                     <p>Using Python and Javascript I can write automation scripts for clients to ease 
-                        their workflow and save time, you have the idea: I implement ( Am not God ooo!!! ).
+                        their workflow and save time, you have the idea: I implement ( Am not God ooo!!! ) .
                     </p>
                 </div>
                 <div className="content">
                     <img src={cloudIcon} alt="Data Analysis"/>
                     <h3>Server Side Solutions</h3>
-                    <p>I use server side technologies to ease the stress of deploying to a live server, 
-                        Also Run Continous Tests with Platforms like CircleCI .
+                    <p>I use server side technologies to ease the stress of deploying to a live server. 
+                        Also Run Continous Tests with Platforms like CircleCI and utilize Docker 
+                        in all these processes .
                     </p>
                 </div>
             </Content>
