@@ -40,7 +40,7 @@ const HomeContainer = styled.section`
 
     button.cta{
         padding: 18px;
-        width: 300px;
+        // width: 300px;
         background-color:rgb(0,72,99);
         color: #fff;
         border-color: rgb(0,72,99) !important;
