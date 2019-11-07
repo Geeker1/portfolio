@@ -19,12 +19,22 @@ const ComponentWrap = styled.div`
     @media screen and (max-width: 550px){
         padding-top: 10vmin !important;
     }
-
-    // @media screen and (min-width: 768px){
-    //     padding-top: 10px;
-    // }
 `
 
+interface RouteInterface{
+    path:string;
+    Component: React.FC;
+}
+
+
+const routes: Array<RouteInterface> = [
+    {path:"/contact", Component: Contact},
+    {path:"/expertise", Component: Expertise},
+    {path:"/about", Component: About},
+    {path:"/projects", Component: Project},
+    {path:"/", Component: Home},
+    {path:"*", Component: NotFound}
+]
 
 export const BaseLayout: React.FC = ()=>{
     return(
@@ -32,12 +42,9 @@ export const BaseLayout: React.FC = ()=>{
             <NavBar/>
             <ComponentWrap>
             <Switch>
-                <Route exact path="/contact" component={Contact}/>
-                <Route exact path="/expertise" component={Expertise}/>
-                <Route exact path="/about" component={About}/>
-                <Route exact path="/projects" component={Project}/>
-                <Route exact path="/" component={Home}/>
-                <Route exact path="*" component={NotFound}/>
+                {routes.map(({path, Component}:{path: string, Component: React.FC})=>(
+                    <Route key={path} exact path={path} component={Component}/>
+                ))}
             </Switch>
             </ComponentWrap>
         </Container>

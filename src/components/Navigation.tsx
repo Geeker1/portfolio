@@ -1,5 +1,5 @@
 import React from "react"
-import styled from "styled-components"
+import styled, { CSSProperties } from "styled-components"
 import { NavLink } from "react-router-dom"
 
 
@@ -38,9 +38,41 @@ const BigScreenNavigation = styled.nav`
     }
 `
 
+
+const SmallScreenNavigation = styled.nav`
+    @media screen and (min-width: 767px){
+        display: none !important;
+    }
+    padding: 10px;
+    background-color: rgba(0,72,99, 0.7);
+    // display: flex;
+    // align-items: flex-start;
+    
+    ul{
+        display: inline-flex;
+        list-style: none;
+        padding: 0px;
+        justify-content: space-between;
+        width: 100%;
+
+        a{
+            color: #D8A31A;
+        }
+    }
+    
+    // right:0;
+    // left:0;
+`
+
+const header = {
+    position: "sticky",
+    top: "0px",
+    zIndex: 200000
+} as CSSProperties
+
 const NavBar: React.FC = () =>{
     return (
-        <header className="nav-header">
+        <header className="nav-header" style={header}>
             <BigScreenNavigation>
                 <ul>
                     <li>
@@ -60,6 +92,25 @@ const NavBar: React.FC = () =>{
                     </li>
                 </ul>
             </BigScreenNavigation>
+            <SmallScreenNavigation>
+            <ul>
+                    <li>
+                        <NavLink exact to="/">Home</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/about">About</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/expertise">Expertise</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/projects">Featured</NavLink>
+                    </li>
+                    <li>
+                        <NavLink to="/contact">Contact</NavLink>
+                    </li>
+                </ul>
+            </SmallScreenNavigation>
         </header>
     )
 }
