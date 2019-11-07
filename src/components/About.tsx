@@ -14,7 +14,7 @@ const AboutWrapper = styled.section`
     padding: 0px 15px;
     align-items: center;
     justify-content: center;
-    padding-top: 90px;
+    // padding-top: 90px;
     flex-direction:column;
     h2, h4{
         color: #D8A31A;
