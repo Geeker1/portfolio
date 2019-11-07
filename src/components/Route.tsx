@@ -15,10 +15,22 @@ const Container = styled.main`
     font-size: 20px;
 `
 
+const ComponentWrap = styled.div`
+    @media screen and (max-width: 550px){
+        padding-top: 10vmin !important;
+    }
+
+    // @media screen and (min-width: 768px){
+    //     padding-top: 10px;
+    // }
+`
+
+
 export const BaseLayout: React.FC = ()=>{
     return(
         <Container>
             <NavBar/>
+            <ComponentWrap>
             <Switch>
                 <Route exact path="/contact" component={Contact}/>
                 <Route exact path="/expertise" component={Expertise}/>
@@ -27,6 +39,7 @@ export const BaseLayout: React.FC = ()=>{
                 <Route exact path="/" component={Home}/>
                 <Route exact path="*" component={NotFound}/>
             </Switch>
+            </ComponentWrap>
         </Container>
     )
 }

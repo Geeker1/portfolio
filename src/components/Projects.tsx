@@ -8,12 +8,11 @@ import dig_agency from "../styles/dig-agency.png"
 
 const ProjectWrapper = styled.section`
     padding: 0px 15px;
-    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items:center;
     justify-content: center;
-    padding-top: 80px;
+    // padding-top: 80px;
     font-size: 15px;
     letter-spacing: 1px;
     h2.main-heading{

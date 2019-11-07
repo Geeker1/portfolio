@@ -11,10 +11,10 @@ const BigScreenNavigation = styled.nav`
 
     padding: 20px;
     display: none;
-    position: absolute;
+    // position: absolute;
     justify-content: flex-end;
-    right:0;
-    width: 100%;
+    // right:0;
+    // width: 100%;
     font-size: 19px;
     ul{
         display: inline-flex;

@@ -6,7 +6,6 @@ import { useHistory } from "react-router"
 
 
 const HomeContainer = styled.section`
-    height: 100vh;
     padding: 0px 15px;
     // padding-top: 95px;
     display: flex;
