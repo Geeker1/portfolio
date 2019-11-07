@@ -9,10 +9,11 @@ import docker from "../styles/docker.svg"
 
 
 const AboutWrapper = styled.section`
-    // height: 100vh;
+    height: 100vh;
     display: flex;
-    padding: 15px;
+    padding: 0px 15px;
     align-items: center;
+    justify-content: center;
     padding-top: 90px;
     flex-direction:column;
     h2, h4{

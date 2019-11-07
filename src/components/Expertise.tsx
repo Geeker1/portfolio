@@ -8,11 +8,11 @@ import autoIcon from "../styles/automation.svg"
 
 
 const ExpertWrapper = styled.section`
-    // height: 100vh;
-    padding: 15px;
+    height: 100vh;
+    padding: 0px 15px;
     display: flex;
     flex-direction: column;
-    // justify-content:center;
+    justify-content:center;
     align-items:center;
     padding-top: 80px;
     font-size: 15px;
