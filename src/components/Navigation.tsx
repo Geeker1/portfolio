@@ -43,25 +43,23 @@ const SmallScreenNavigation = styled.nav`
     @media screen and (min-width: 767px){
         display: none !important;
     }
-    padding: 10px;
-    background-color: rgba(0,72,99, 0.7);
-    // display: flex;
-    // align-items: flex-start;
-    
+    background-color: rgba(0,72,99, 0.8);
     ul{
         display: inline-flex;
         list-style: none;
         padding: 0px;
-        justify-content: space-between;
+        justify-content: space-around;
         width: 100%;
-
+        margin:0;
+        padding: 20px 0px;
         a{
             color: #D8A31A;
         }
     }
-    
-    // right:0;
-    // left:0;
+
+    li{
+        font-size: calc(15px + 0.5vmin);
+    }
 `
 
 const header = {

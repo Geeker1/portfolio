@@ -8,7 +8,6 @@ import insta from "../styles/insta.svg"
 
 const ContactWrapper = styled.div`
     padding: 0px 15px;
-    height: 100vh;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;

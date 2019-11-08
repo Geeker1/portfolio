@@ -35,6 +35,9 @@ const AboutWrapper = styled.section`
         flex-wrap: wrap;
         
         div.lang{
+            @media screen and (max-width: 550px){
+                width: 100% !important;
+            }
             margin: 10px;
             width: 200px;
             text-align: center;
