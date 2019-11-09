@@ -1,4 +1,4 @@
-import React, {useEffect} from "react"
+import React from "react"
 import styled from "styled-components"
 import arsemio from "../styles/arsemio.png"
 import cureator from "../styles/cureator.png"
@@ -97,9 +97,7 @@ const ProjectItem = styled.div`
 
 
 const Project : React.FC = ()=>{
-    useEffect(() => {
-        window.scrollTo(0,0);
-      });
+    window.scrollTo(0,0);
     return (
         <ProjectWrapper>
             <h2 className="main-heading">Recent Projects</h2>

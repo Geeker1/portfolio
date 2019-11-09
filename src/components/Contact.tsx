@@ -109,6 +109,7 @@ const ContactWrapper = styled.div`
 `
 
 const Contact : React.FC = ()=>{
+    window.scrollTo(0,0);
     return(
         <ContactWrapper>
             <div className="persua">

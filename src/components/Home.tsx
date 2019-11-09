@@ -61,6 +61,7 @@ const HomeContainer = styled.section`
 `
 
 const Home : React.FC = ()=>{
+    window.scrollTo(0,0);
     let history = useHistory()
     return (
         <HomeContainer>

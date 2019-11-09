@@ -60,6 +60,7 @@ const Content = styled.div`
 `
 
 const Expertise : React.FC = ()=>{
+    window.scrollTo(0,0);
     return(
         <ExpertWrapper>
             <h2 className="main-heading"> Areas of Expertise </h2>

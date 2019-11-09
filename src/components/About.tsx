@@ -65,6 +65,7 @@ const AboutWrapper = styled.section`
 `
 
 const About : React.FC = ()=>{
+    window.scrollTo(0,0);
     return(
         <AboutWrapper>
             <h2>About Me</h2>
