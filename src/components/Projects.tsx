@@ -1,9 +1,9 @@
 import React from "react"
 import styled from "styled-components"
-import arsemio from "../styles/arsemio.png"
-import cureator from "../styles/cureator.png"
-import web_agency from "../styles/web-agency.png"
-import dig_agency from "../styles/dig-agency.png"
+import arsemio from "../static/arsemio.png"
+import cureator from "../static/cureator.png"
+import web_agency from "../static/web-agency.png"
+import dig_agency from "../static/dig-agency.png"
 
 
 const ProjectWrapper = styled.section`

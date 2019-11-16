@@ -9,7 +9,7 @@ const BigScreenNavigation = styled.nav`
         display: flex !important;
     }
 
-    padding: 20px;
+    padding: 10px;
     display: none;
     // position: absolute;
     justify-content: flex-end;

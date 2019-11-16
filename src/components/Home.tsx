@@ -1,7 +1,7 @@
 import React from "react"
 import '../styles/home.css'
 import styled from "styled-components"
-import profile from "../styles/profile.jpg"
+import profile from "../static/profile.jpg"
 import { useHistory } from "react-router"
 
 
@@ -20,7 +20,7 @@ const HomeContainer = styled.section`
 
     h1.header-text{
         margin-bottom: 10px;
-        font-size: 2.5rem;
+        font-size: 7vmin;
         letter-spacing: 1px;
         color: #D8A31A;
 

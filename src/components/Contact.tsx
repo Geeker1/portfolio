@@ -1,10 +1,10 @@
 import React from "react"
 import styled from "styled-components"
-import email from "../styles/mail.svg"
-import phone from "../styles/call.svg"
-import facebook from "../styles/facebook.svg"
-import twitter from "../styles/twitter.svg"
-import insta from "../styles/insta.svg"
+import email from "../static/mail.svg"
+import phone from "../static/call.svg"
+import facebook from "../static/facebook.svg"
+import twitter from "../static/twitter.svg"
+import insta from "../static/insta.svg"
 
 const ContactWrapper = styled.div`
     padding: 0px 15px;
@@ -16,12 +16,13 @@ const ContactWrapper = styled.div`
     .media{
         display: flex;
         justify-content: center;
+        width: 100%;
         margin-top: 20px;
         margin-bottom: 20px;
         & > img{
             margin: 0 5px;
-            width: 30px;
-            height: 30px;
+            width: 25px;
+            height: 25px;
         }
     }
 
@@ -42,8 +43,8 @@ const ContactWrapper = styled.div`
     }
 
     .social img{
-        width: 30px;
-        height: 30px;
+        width: 25px;
+        height: 25px;
     }
 
     > *{width: 500px;max-width: 100%;}
@@ -157,6 +158,8 @@ const Contact : React.FC = ()=>{
             <div className="media">
                 <img alt="Email" src={facebook}/>
                 <img alt="Email" src={twitter}/>
+                <img alt="Email" src={insta}/>
+                <img alt="Email" src={insta}/>
                 <img alt="Email" src={insta}/>
             </div>
         </ContactWrapper>

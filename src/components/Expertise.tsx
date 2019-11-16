@@ -1,10 +1,10 @@
 import React from "react"
 import styled from "styled-components"
-import webIcon from "../styles/web.svg"
-import scrapeIcon from "../styles/scrape.svg"
-import dataIcon from "../styles/data.svg"
-import cloudIcon from "../styles/cloud.svg"
-import autoIcon from "../styles/automation.svg"
+import webIcon from "../static/web.svg"
+import scrapeIcon from "../static/scrape.svg"
+import dataIcon from "../static/data.svg"
+import cloudIcon from "../static/cloud.svg"
+import autoIcon from "../static/automation.svg"
 
 
 const ExpertWrapper = styled.section`

@@ -19,6 +19,20 @@ const ComponentWrap = styled.div`
     @media screen and (max-width: 550px){
         padding-top: 10vmin !important;
     }
+
+    padding-top: 5vmin;
+    
+    @media screen and (width: 768px){
+        padding-top: 10vmax;
+    }
+
+    @media screen and (width: 1024px){
+        padding-top: 10vmax;
+    }
+
+    @media screen and (min-width: 1400px){
+        padding-top: 10vmin;
+    }
 `
 
 interface RouteInterface{

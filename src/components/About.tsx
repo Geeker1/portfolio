@@ -1,11 +1,11 @@
 import React from "react"
 import styled from "styled-components"
-import react from "../styles/react.svg"
-import python from "../styles/python.svg"
-import javascript from "../styles/js.svg"
-import django from "../styles/django.svg"
-import typescript from "../styles/typescript.svg"
-import docker from "../styles/docker.svg"
+import react from "../static/react.svg"
+import python from "../static/python.svg"
+import javascript from "../static/js.svg"
+import django from "../static/django.svg"
+import typescript from "../static/typescript.svg"
+import docker from "../static/docker.svg"
 
 
 const AboutWrapper = styled.section`
