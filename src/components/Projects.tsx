@@ -146,16 +146,15 @@ const Project : React.FC = ()=>{
                         target="_blank" rel="noopener noreferrer" className="btn">Visit Site</a>
                     </div>
                 </ProjectItem>
-                {/* <ProjectItem className="project-item">
+                <ProjectItem className="project-item">
                     <div className="bg-img"></div>
                     <div className="content">
-                    <h3>Fx Planner</h3>
-                    <p>A simple Dashboard forex app for helping users stick to the trading plans they set
-                         and watch for price alerts.
+                    <h3>Pageant Site</h3>
+                    <p>A simple mockup web app for a beauty pageant contest.
                     </p>
-                    <a href="https://google.com" target="_blank" rel="noopener noreferrer" className="btn">Visit Site</a>
+                    <a href="https://thirsty-khorana-15d84c.netlify.com/" target="_blank" rel="noopener noreferrer" className="btn">Visit Site</a>
                     </div>
-                </ProjectItem> */}
+                </ProjectItem>
             </div>
             <a href="https://github.com/geeker1" target="_blank" rel="noopener noreferrer" className="btn cta">
                 More Projects Here
