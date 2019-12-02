@@ -155,6 +155,25 @@ const Project : React.FC = ()=>{
                     <a href="https://thirsty-khorana-15d84c.netlify.com/" target="_blank" rel="noopener noreferrer" className="btn">Visit Site</a>
                     </div>
                 </ProjectItem>
+                <ProjectItem className="project-item">
+                    <div className="bg-img"></div>
+                    <div className="content">
+                    <h3>E-learning Platform</h3>
+                    <p>An E-learning platform built with Django but used with colorLib's templates.
+                    </p>
+                    <a href="https://boring-poitras-790fd7.netlify.com/" target="_blank" rel="noopener noreferrer" className="btn">Visit Site</a>
+                    </div>
+                </ProjectItem>
+                <ProjectItem className="project-item">
+                    <div className="bg-img"></div>
+                    <div className="content">
+                    <h3>E-learning Site mockup</h3>
+                    <p>A simple mockup for JeffTutors E-learning platform.
+                    </p>
+                    <a href="https://boring-poitras-790fd7.netlify.com/" target="_blank" rel="noopener noreferrer" className="btn">Visit Site</a>
+                    </div>
+                </ProjectItem>
+                
             </div>
             <a href="https://github.com/geeker1" target="_blank" rel="noopener noreferrer" className="btn cta">
                 More Projects Here
