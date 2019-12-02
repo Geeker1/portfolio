@@ -161,7 +161,7 @@ const Project : React.FC = ()=>{
                     <h3>E-learning Platform</h3>
                     <p>An E-learning platform built with Django but used with colorLib's templates.
                     </p>
-                    <a href="https://boring-poitras-790fd7.netlify.com/" target="_blank" rel="noopener noreferrer" className="btn">Visit Site</a>
+                    <a href="https://hydrak.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="btn">Visit Site</a>
                     </div>
                 </ProjectItem>
                 <ProjectItem className="project-item">
