@@ -95,7 +95,7 @@ const Expertise : React.FC = ()=>{
                     <img src={autoIcon} alt="Data Analysis"/>
                     <h3>Automation Scripts</h3>
                     <p>Using Python and Javascript I can write automation scripts for clients to ease 
-                        their workflow and save time, you have the idea: I implement ( Am not God ooo!!! ) .
+                        their workflow and save time, you have the idea: I implement.
                     </p>
                 </div>
                 <div className="content">
