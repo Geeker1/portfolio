@@ -68,27 +68,29 @@ const Expertise : React.FC = ()=>{
                 <div className="content">
                     <img src={webIcon} alt="Backend / Frontend Development"/>
                     <h3>Python Web Development</h3>
-                    <p>Using my knowledge of Django, React and GraphQL / REST, I have been able to build
-                        Single page Applications(SPA's), Static sites and also dynamic sites depending on 
-                        the needs of the users .
+                    <p>Over the years I have worked with javascript 
+                        and Python using Web frameworks like Django, Flask and Tornado.
+                        I have written API driven applications using Django-REST-Framework and React,
+                        I have worked with GatsbyJS.
                     </p>
                 </div>
                 <div className="content">
                     <img src={scrapeIcon} alt="Web Scraping"/>
                     <h3>Web Scraping</h3>
-                    <p>One of the powerful thing that the Python language offers is it's versatility,
-                        with Python and libraries like request, urllib and scrapy/ selenium, I have been able
-                        to scrape data from the internet for personal uses mostly and also for commercial
-                        applications like Ecommerce, e.t.c .
+                    <p>
+                        Using Scrapy, Selenium and BeatifulSoup, 
+                        I have been able to scrape data from the various input sources. One of the powerful thing 
+                        that the Python language offers is it's versatility, I have been able
+                        to scrape data for myself and clients.
                     </p>
                 </div>
                 <div className="content">
                     <img src={dataIcon} alt="Data Analysis"/>
                     <h3>Data Analysis</h3>
-                    <p>Pandas, Numpy and Keras are good libraries I use for data analysis and creating
-                        models for later use. Data Analysis offers you insight into ur business and with
-                        charting libraries like Plotly, Matplotlib, Bokeh and Chart.js, visualizing your
-                        data is no more a problem .
+                    <p>Pandas, Numpy and Keras are good libraries I use for data analysis and creating data models.
+                        Data Analysis offers you insight into any form of collective data you might have 
+                        and with charting libraries like Plotly, Matplotlib, Bokeh and Chart.js, visualizing your
+                        data is no more a problem.
                     </p>
                 </div>
             </Content>
