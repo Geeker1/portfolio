@@ -66,8 +66,8 @@ const Expertise : React.FC = ()=>{
             <h2 className="main-heading"> Areas of Expertise </h2>
             <Content>
                 <div className="content">
-                    <img src={webIcon} alt="Web Development"/>
-                    <h3>Web Development</h3>
+                    <img src={webIcon} alt="Backend / Frontend Development"/>
+                    <h3>Python Web Development</h3>
                     <p>Using my knowledge of Django, React and GraphQL / REST, I have been able to build
                         Single page Applications(SPA's), Static sites and also dynamic sites depending on 
                         the needs of the users .
@@ -89,21 +89,6 @@ const Expertise : React.FC = ()=>{
                         models for later use. Data Analysis offers you insight into ur business and with
                         charting libraries like Plotly, Matplotlib, Bokeh and Chart.js, visualizing your
                         data is no more a problem .
-                    </p>
-                </div>
-                <div className="content">
-                    <img src={autoIcon} alt="Data Analysis"/>
-                    <h3>Automation Scripts</h3>
-                    <p>Using Python and Javascript I can write automation scripts for clients to ease 
-                        their workflow and save time, you have the idea: I implement.
-                    </p>
-                </div>
-                <div className="content">
-                    <img src={cloudIcon} alt="Data Analysis"/>
-                    <h3>Server Side Solutions</h3>
-                    <p>I use server side technologies to ease the stress of deploying to a live server. 
-                        Also Run Continous Tests with Platforms like CircleCI and utilize Docker 
-                        in all these processes .
                     </p>
                 </div>
             </Content>
